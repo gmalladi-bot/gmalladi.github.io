@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="/assets/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Malladi Gayathri</h1>
+<p class="tagline">Law-BCom LLB (Hons) | Legal Researcher | Writer</p>
+
+<div class="contact">
+<span>📞 93983976443</span>
+<span>✉ gayathriveena.murthy@gmail.com</span>
+</div>
+</header>
+
+<main>
+{{ content }}
+</main>
+
+<footer>
+<p>© {{ site.time | date: "%Y" }} Malladi Gayathri</p>
+</footer>
+
+</div>
+
+</body>
+</html>
